@@ -1,0 +1,123 @@
+body{
+    background: linear-gradient(rgba(0, 204, 255, 0.233), white 30%);
+    background-repeat: no-repeat;
+}
+
+body a{
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 18px;
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.navbar a{
+    margin-inline: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+body button{
+
+    background: rgb(0, 162, 255);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+    margin-inline: 10px;
+}
+
+.navbar button:hover{
+    transform: scale(1.1);
+}
+
+.page1 .collage{
+    position: relative;
+    height: 500px;
+    overflow-x: hidden;
+}
+
+.page1 h1{
+    margin-bottom: 20px;
+}
+
+.page1 .collage .img1{
+    position: absolute;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+
+    border-radius: 40px;
+}
+.page1 .collage .img2{
+    position: absolute;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    left: 10px;
+
+    border-radius: 40px;
+}
+.page1 .collage .img3{
+    position: absolute;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+
+    top: 200px;
+    left: -50px;
+
+    z-index: -1;
+
+    border-radius: 40px;
+}
+.page1 .collage .img4{
+    position: absolute;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    top: 200px;
+    right: 0px;
+
+    border-radius: 40px;
+}
+.page1 .collage .img5{
+    position: absolute;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    left: 150px;
+    top: 80px;
+
+    border-radius: 40px;
+}
+
+.page2{
+    margin-bottom: 40px;
+}
+
+.page2 .img-div{
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.page2 .img-div img{
+    border-radius: 30px;
+    width: 300px;
+}
+
+.content h2{
+    margin-bottom: 10px;
+}
+
+.content div{
+    margin-top: 20px;
+}
